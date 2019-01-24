@@ -15,8 +15,8 @@ import="br.com.model.BeanMedia"
 	</head>
 	<body>
 		<form action="ProcessMediaForm.jsp" method="post" name="medias">
-			Title: <input type="text" name="name" value='<%= media.getTitle()%>'>
-			<%= media.getMistakes("tittle") %>
+			Title: <input type="text" name="title" value='<%= media.getTitle()%>'>
+			<%= media.getMistakes("title") %>
 			<br />
 			Year: <input type="text" name="year" value='<%= media.getYear()%>'>
 			<%= media.getMistakes("year") %>
@@ -35,7 +35,6 @@ import="br.com.model.BeanMedia"
 					out.print("checked");
 			%>
 			> DVD
-			<br />
 			<%= media.getMistakes("type") %>
 			<br />
 			<input type="submit" value="Confirm">

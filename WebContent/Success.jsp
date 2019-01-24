@@ -13,6 +13,6 @@ pageEncoding="UTF-8"
 		<title>Success</title>
 	</head>
 	<body>
-		<h1>Successful operation</h1>
+		<h1>Successful operation!</h1>
 	</body>
 </html>

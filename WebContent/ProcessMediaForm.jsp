@@ -14,8 +14,7 @@ import="br.com.model.BeanMedia"
 <body>
 
 	<jsp:useBean id="media" class="br.com.model.BeanMedia" scope="request">
-		<jsp:setProperty name="media" property="title"
-			value='<%=request.getParameter("title")%>' />
+		<jsp:setProperty name="media" property="title" />
 		<jsp:setProperty name="media" property="year" />
 		<jsp:setProperty name="media" property="type" />
 	</jsp:useBean>
